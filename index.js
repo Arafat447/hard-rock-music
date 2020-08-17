@@ -8,7 +8,6 @@ document.getElementById("submit").addEventListener("click", function(){
         function getArtist(id1,id2,index){
             const albumName = data.data[index].album.title;
             const artistName = data.data[index].artist.name;
-            // document.getElementById(id).innerText = `${albumName} Album By ${artistName} `;
             document.getElementById(id1).innerText = albumName;
             document.getElementById(id2).innerText = artistName;
 
